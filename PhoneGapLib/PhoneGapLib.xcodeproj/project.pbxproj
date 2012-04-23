@@ -169,6 +169,8 @@
 		88BA573E109BB46F00FB5E78 /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BA573C109BB46F00FB5E78 /* Accelerometer.m */; };
 		96137F36154594E9009BE585 /* fdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 96137F33154594E9009BE585 /* fdd.h */; };
 		96137F37154594E9009BE585 /* fdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 96137F34154594E9009BE585 /* fdd.m */; };
+		96137F4E15459972009BE585 /* Gaurav1.h in Headers */ = {isa = PBXBuildFile; fileRef = 96137F4B15459972009BE585 /* Gaurav1.h */; };
+		96137F4F15459972009BE585 /* Gaurav1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96137F4C15459972009BE585 /* Gaurav1.m */; };
 		C937A4561337599E002C4C79 /* FileTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = C937A4541337599E002C4C79 /* FileTransfer.h */; };
 		C937A4571337599E002C4C79 /* FileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = C937A4551337599E002C4C79 /* FileTransfer.m */; };
 		EE943A7615459732006550BA /* CRR.h in Headers */ = {isa = PBXBuildFile; fileRef = EE943A7415459732006550BA /* CRR.h */; };
@@ -277,6 +279,9 @@
 		96137F33154594E9009BE585 /* fdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fdd.h; sourceTree = "<group>"; };
 		96137F34154594E9009BE585 /* fdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fdd.m; sourceTree = "<group>"; };
 		96137F35154594E9009BE585 /* fdd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fdd.xib; sourceTree = "<group>"; };
+		96137F4B15459972009BE585 /* Gaurav1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gaurav1.h; sourceTree = "<group>"; };
+		96137F4C15459972009BE585 /* Gaurav1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gaurav1.m; sourceTree = "<group>"; };
+		96137F4D15459972009BE585 /* Gaurav1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Gaurav1.xib; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* PhoneGapLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneGapLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		C937A4541337599E002C4C79 /* FileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileTransfer.h; path = Classes/FileTransfer.h; sourceTree = "<group>"; };
 		C937A4551337599E002C4C79 /* FileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransfer.m; path = Classes/FileTransfer.m; sourceTree = "<group>"; };
@@ -337,6 +342,9 @@
 		0867D691FE84028FC02AAC07 /* PhoneGapLib */ = {
 			isa = PBXGroup;
 			children = (
+				96137F4B15459972009BE585 /* Gaurav1.h */,
+				96137F4C15459972009BE585 /* Gaurav1.m */,
+				96137F4D15459972009BE585 /* Gaurav1.xib */,
 				EE943A7915459752006550BA /* test2.h */,
 				EE943A7A15459752006550BA /* test2.m */,
 				EE943A7B15459752006550BA /* test2.xib */,
@@ -606,6 +614,7 @@
 				96137F36154594E9009BE585 /* fdd.h in Headers */,
 				EE943A7615459732006550BA /* CRR.h in Headers */,
 				EE943A7C15459752006550BA /* test2.h in Headers */,
+				96137F4E15459972009BE585 /* Gaurav1.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -870,6 +879,7 @@
 				96137F37154594E9009BE585 /* fdd.m in Sources */,
 				EE943A7715459732006550BA /* CRR.m in Sources */,
 				EE943A7D15459752006550BA /* test2.m in Sources */,
+				96137F4F15459972009BE585 /* Gaurav1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
