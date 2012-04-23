@@ -171,6 +171,10 @@
 		96137F37154594E9009BE585 /* fdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 96137F34154594E9009BE585 /* fdd.m */; };
 		C937A4561337599E002C4C79 /* FileTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = C937A4541337599E002C4C79 /* FileTransfer.h */; };
 		C937A4571337599E002C4C79 /* FileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = C937A4551337599E002C4C79 /* FileTransfer.m */; };
+		EE943A7615459732006550BA /* CRR.h in Headers */ = {isa = PBXBuildFile; fileRef = EE943A7415459732006550BA /* CRR.h */; };
+		EE943A7715459732006550BA /* CRR.m in Sources */ = {isa = PBXBuildFile; fileRef = EE943A7515459732006550BA /* CRR.m */; };
+		EE943A7C15459752006550BA /* test2.h in Headers */ = {isa = PBXBuildFile; fileRef = EE943A7915459752006550BA /* test2.h */; };
+		EE943A7D15459752006550BA /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = EE943A7A15459752006550BA /* test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,6 +280,11 @@
 		AA747D9E0F9514B9006C5449 /* PhoneGapLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneGapLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		C937A4541337599E002C4C79 /* FileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileTransfer.h; path = Classes/FileTransfer.h; sourceTree = "<group>"; };
 		C937A4551337599E002C4C79 /* FileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransfer.m; path = Classes/FileTransfer.m; sourceTree = "<group>"; };
+		EE943A7415459732006550BA /* CRR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRR.h; sourceTree = "<group>"; };
+		EE943A7515459732006550BA /* CRR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRR.m; sourceTree = "<group>"; };
+		EE943A7915459752006550BA /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		EE943A7A15459752006550BA /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
+		EE943A7B15459752006550BA /* test2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = test2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +337,11 @@
 		0867D691FE84028FC02AAC07 /* PhoneGapLib */ = {
 			isa = PBXGroup;
 			children = (
+				EE943A7915459752006550BA /* test2.h */,
+				EE943A7A15459752006550BA /* test2.m */,
+				EE943A7B15459752006550BA /* test2.xib */,
+				EE943A7415459732006550BA /* CRR.h */,
+				EE943A7515459732006550BA /* CRR.m */,
 				96137F33154594E9009BE585 /* fdd.h */,
 				96137F34154594E9009BE585 /* fdd.m */,
 				96137F35154594E9009BE585 /* fdd.xib */,
@@ -590,6 +604,8 @@
 				3047725B14C64D2700D535B5 /* NSDictionary+LowercaseKeys.h in Headers */,
 				30F5EBAB14CA26E700987760 /* PGCommandDelegate.h in Headers */,
 				96137F36154594E9009BE585 /* fdd.h in Headers */,
+				EE943A7615459732006550BA /* CRR.h in Headers */,
+				EE943A7C15459752006550BA /* test2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +868,8 @@
 				30B05D7214BD22F10046A9AC /* PhoneGapViewController.m in Sources */,
 				3047725D14C64D2700D535B5 /* NSDictionary+LowercaseKeys.m in Sources */,
 				96137F37154594E9009BE585 /* fdd.m in Sources */,
+				EE943A7715459732006550BA /* CRR.m in Sources */,
+				EE943A7D15459752006550BA /* test2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
