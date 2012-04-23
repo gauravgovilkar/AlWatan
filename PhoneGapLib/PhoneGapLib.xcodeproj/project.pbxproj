@@ -167,6 +167,8 @@
 		8887FDA01090FBE7009987E8 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887FD611090FBE7009987E8 /* Sound.m */; };
 		88BA573D109BB46F00FB5E78 /* Accelerometer.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BA573B109BB46F00FB5E78 /* Accelerometer.h */; };
 		88BA573E109BB46F00FB5E78 /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BA573C109BB46F00FB5E78 /* Accelerometer.m */; };
+		96137F36154594E9009BE585 /* fdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 96137F33154594E9009BE585 /* fdd.h */; };
+		96137F37154594E9009BE585 /* fdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 96137F34154594E9009BE585 /* fdd.m */; };
 		C937A4561337599E002C4C79 /* FileTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = C937A4541337599E002C4C79 /* FileTransfer.h */; };
 		C937A4571337599E002C4C79 /* FileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = C937A4551337599E002C4C79 /* FileTransfer.m */; };
 /* End PBXBuildFile section */
@@ -268,6 +270,9 @@
 		8887FD611090FBE7009987E8 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sound.m; path = Classes/Sound.m; sourceTree = "<group>"; };
 		88BA573B109BB46F00FB5E78 /* Accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Accelerometer.h; path = Classes/Accelerometer.h; sourceTree = "<group>"; };
 		88BA573C109BB46F00FB5E78 /* Accelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Accelerometer.m; path = Classes/Accelerometer.m; sourceTree = "<group>"; };
+		96137F33154594E9009BE585 /* fdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fdd.h; sourceTree = "<group>"; };
+		96137F34154594E9009BE585 /* fdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fdd.m; sourceTree = "<group>"; };
+		96137F35154594E9009BE585 /* fdd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fdd.xib; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* PhoneGapLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneGapLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		C937A4541337599E002C4C79 /* FileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileTransfer.h; path = Classes/FileTransfer.h; sourceTree = "<group>"; };
 		C937A4551337599E002C4C79 /* FileTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransfer.m; path = Classes/FileTransfer.m; sourceTree = "<group>"; };
@@ -323,6 +328,9 @@
 		0867D691FE84028FC02AAC07 /* PhoneGapLib */ = {
 			isa = PBXGroup;
 			children = (
+				96137F33154594E9009BE585 /* fdd.h */,
+				96137F34154594E9009BE585 /* fdd.m */,
+				96137F35154594E9009BE585 /* fdd.xib */,
 				8887FD101090FB43009987E8 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				686357B0141002F100DF4CF2 /* PhoneGapLibTests */,
@@ -581,6 +589,7 @@
 				30B05D7114BD22F10046A9AC /* PhoneGapViewController.h in Headers */,
 				3047725B14C64D2700D535B5 /* NSDictionary+LowercaseKeys.h in Headers */,
 				30F5EBAB14CA26E700987760 /* PGCommandDelegate.h in Headers */,
+				96137F36154594E9009BE585 /* fdd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,6 +851,7 @@
 				30B05D7014BD22F10046A9AC /* PhoneGapDelegate.m in Sources */,
 				30B05D7214BD22F10046A9AC /* PhoneGapViewController.m in Sources */,
 				3047725D14C64D2700D535B5 /* NSDictionary+LowercaseKeys.m in Sources */,
+				96137F37154594E9009BE585 /* fdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
